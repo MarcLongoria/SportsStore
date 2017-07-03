@@ -54,28 +54,28 @@ namespace SportsStore.Models
                     Category = "Chess",
                     Price = 16
                 },
-new Product
-{
-    Name = "Unsteady Chair",
-    Description = "Secretly give your opponent a disadvantage",
-    Category = "Chess",
-    Price = 29.95m
-},
-new Product
-{
-    Name = "Human Chess Board",
-    Description = "A fun game for the family",
-    Category = "Chess",
-    Price = 75
-},
-new Product
-{
-    Name = "Bling-Bling King",
-    Description = "Gold-plated, diamond-studded King",
-    Category = "Chess",
-    Price = 1200
-}
-);
+                new Product
+                {
+                    Name = "Unsteady Chair",
+                    Description = "Secretly give your opponent a disadvantage",
+                    Category = "Chess",
+                    Price = 29.95m
+                },
+                new Product
+                {
+                    Name = "Human Chess Board",
+                    Description = "A fun game for the family",
+                    Category = "Chess",
+                    Price = 75
+                },
+                new Product
+                {
+                    Name = "Bling-Bling King",
+                    Description = "Gold-plated, diamond-studded King",
+                    Category = "Chess",
+                    Price = 1200
+                }
+                );
                 context.SaveChanges();
             }
         }
